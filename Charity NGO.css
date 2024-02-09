@@ -1,0 +1,127 @@
+
+body {
+            text-align: none;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        .column {
+         float: left;
+         width: 33.33%;
+        padding: 5px;
+        }
+            * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+        .mySlides {display: none}
+        img {vertical-align: middle;}
+
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+        }
+
+                header {
+            background-color: #32776B;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 100 auto;
+            align-items: fixed;
+            flex-direction: column;
+        }
+        p.label {
+            position: absolute;
+            left: 40px;
+            top: 150px;
+            display: block;
+            text-align: left;
+            margin: auto;
+            padding: auto;
+        }
+        input {
+            width: 700px;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color:green;
+            color: black;
+            padding: 10px 15px;
+            border: black;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .prev, .next,.text {font-size: 11px}
+        }
+        table, th, td {
+        border: none;
+        line-height: 1.8;
+        }
+
+        table.center {
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+a.active {
+  background-color: #04AA6D;
+}
+
+        section {
+            margin-bottom: 20px;
+        }
+        h1 {
+            text-align: center;
+            font: Serif;
+            position top: absolute;
+        }
+        h3, h2 {
+            text-align: center;
+            font: monospace
+        }
+        p {
+            text-align: center;
+            line-height: 1.6;
+            
+        }
+        footer {
+            background-color: #32776B;
+            color: #fff;
+            text-align: center;
+            padding: 2px;
+        }
