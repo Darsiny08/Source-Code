@@ -1,0 +1,106 @@
+<!DOCTYPE html Darsiny>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="Charity NGO.css">
+</head>
+<header>
+        <p class="container">
+            <img src="Rainbow Hope Society.png" alt="Charity Logo" style="width: 160px" style="height: 50px">
+            <h1>Welcome to Our Rainbow Hope Society Foundation</h1>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li><a class="active" href="Our Work.html">Our Work</a></li>
+                    <li><a class="active" href="Donate.html">Donate</a></li>
+                </ul>
+            </nav>
+        </p>
+    </header>
+<body>
+
+    <main>
+        <section>
+            <table border="1" width="50%" class="center">
+                <tr >
+                    <td>
+                        <h2>About Us</h2>
+            <p style="text-align">Rainbow Hope Society is dedicated to empowering children from diverse backgrounds, fostering hope, and unlocking their potential. Through various programs and initiatives, we provide support, resources, and opportunities for children to thrive and succeed. Join us in spreading hope and making a positive impact in the lives of children and their communities.</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <p class="row" >
+  <p class="column">
+    <img src="Child Online Protection.jpg" alt="Child Online Protection" style="width:100%" class="desc"><b>Child Online Protection </b>is our priority because traditional protection challenges are now being amplified through the extensive usage of the Internet.
+  </p>
+  <p class="column">
+    <img src="Child-Friendly Cities.jpg" alt="Forest" style="width:100%" class="desc">A child-friendly city is one which implements the UN Convention on the Rights of the Child at the <b>local level.</b> 
+  </p>
+  <p class="column">
+    <img src="Child Participation.jpg" alt="Mountains" style="width:100%" class="desc">One of our core focus is to strive to work towards encouraging <b>active child participation</b>  and <b>child-led initiatives.</b>Initiatives that are <b>more inclusive for all children</b>across Malaysia.
+  </p>
+</p>
+       <section>
+            <h2>Our Vission</h2>
+            <p>A world where every child thrives, regardless of background, where diversity is celebrated, and hope illuminates their path to success.</p>
+        </section>
+        <section>
+            <h2>Our Mission</h2>
+            <p>To empower children from all backgrounds to thrive and succeed </p>
+        </section>
+        <!-- Additional sections for showcasing achievements, testimonials, etc. -->
+    </main>
+      <p class="slideshow-container">
+
+<p class="mySlides fade" background-size= "100% 100%">
+  <img src="Together, let's empower children for a better future.jpg" style="width:100%" style="height: 10px">
+</p>
+</p>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<h1>Here Are 3 Ways You Can Help</h1>
+<h3>Let’s make a bigger impact in our community, together.</h3>
+ <p class="row">
+  <p class="column">
+    <img src="BIRTHDAY FOR A CAUSE.jpg" alt="BIRTHDAY FOR A CAUSE" style="width:100%" class="desc"><b>Child Online Protection </b>is our priority because traditional protection challenges are now being amplified through the extensive usage of the Internet.
+  </p>
+  <p class="column">
+    <img src="FUNDRAISE.jpg" alt="FUNDRAISE" style="width:100%" class="desc"><b>Do something fun, creative or crazy </b> to raise funds online. You can fundraise on SimplyGiving.com as individuals or as a team.
+  </p>
+  <p class="column">
+    <img src="DONATE.jpg" alt="DONATE" style="width:100%" class="desc">You can <b>dedicate your birthday by asking family members and friends to donate to Childline Foundation, in-lieu of giving you birthday gifts.</b>
+  </p>
+
+    <footer>
+        <p style="color: black">&copy; 2024 Rainbow Hope Society. All rights reserved.</p>
+    </footer>
+</body>
+</html>
